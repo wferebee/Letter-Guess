@@ -1,0 +1,64 @@
+body {
+    box-sizing: border-box;
+    background: linear-gradient(90deg,
+    #fb3 15%, #655 0, #655 40%,
+    #ab4 0, #ab4 65%, hsl(20, 40%, 90%) 0);
+    background-size: 80px 100%;
+    border-style: solid;
+    border-width: 50px;
+    border-color: #ab4;
+}
+
+#game-info {
+    margin: auto;
+    position: relative;
+    bottom:3px;
+    background: #fb3;
+    width: 640px;
+    height: 640px;
+    border-radius: 320px;
+    border-width: 25px;
+    border-color: blacK;
+  }
+
+.content {
+    position: relative;
+    top: 250px;
+    text-align: center;
+    color: #655;
+    margin: 5px;
+}
+
+#title {
+    position: relative;
+    top: 100px;
+    font-size: 1.5rem;
+}
+
+#descrip {
+    position: relative;
+    top: 120px;
+    font-size: 1rem;
+}
+
+#descrip2 {
+    position: relative;
+    top: 130px;
+    font-size: .75rem;
+}
+
+#wins, #losses {
+    font-size: 1.25rem;
+}
+
+#remaining {
+    position: relative;
+    top: 275px;
+    font-size: 1rem;
+}
+
+#guesses {
+    position: relative;
+    top: 400px;
+    font-size: 1.25rem;
+}
